@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafbfb;
+}
+
+.inicio {
+    width: 90%;
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: rgb(29, 137, 60);
+    border-radius: 25px;
+}
+
+.informacion {
+    display: none;
+}
+
+#grafica-zapotlanejo {
+    display: none;
+}
+
+#grafica-guadalajara {
+    display: none;
+}
+
+#grafica-zapopan {
+    display: none;
+}
+
+#grafica-tlaquepaque {
+    display: none;
+}
+
+#grafica-tlajomulco {
+    display: none;
+}
+
+#grafica-elsalto {
+    display: none;
+}
+
+.informacion img {
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    margin: 5px;
+    font-size: 38px;
+}
+
+h2 {
+    margin: 5px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid #555;
+    font-size: 16px;
+}
+
+#consultar {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.opciones {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.juego {
+    background-color: #95d1c5;
+    border-radius: 35px;
+}
+
+.guia {
+    background-color: #95d1c5;
+    border-radius: 35px;
+}
+
+.opciones button {
+    width: 50%;
+    padding: 18px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.guia-pantalla {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.elementos-guia {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.elemento-guia {
+    padding: 15px 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #95d1c5;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.elemento-guia:hover {
+    transform: scale(1.03);
+}
+
+.informacion-guia {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f5e9;
+    border-radius: 15px;
+}
+
+.juego-pantalla {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.juego-pantalla .respuesta {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.juego-pantalla .respuesta:hover {
+    transform: scale(1.02);
+}
+
+#puntos {
+    font-size: 18px;
+    font-weight: bold;
+}

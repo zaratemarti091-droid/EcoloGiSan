@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoScan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="inicio">
+
+    <h1>♻️Recicla en tu localidad</h1>
+
+    <p>Descubre cuanta contaminacion hay en tu municipio</p>
+
+    <select id="municipio">
+
+        <option value="">Selecciona tu municipio</option>
+        <option value="Zapotlanejo">Zapotlanejo</option>
+        <option value="Guadalajara">Guadalajara</option>
+        <option value="Zapopan">Zapopan</option>
+        <option value="San Pedro Tlaquepaque">San Pedro Tlaquepaque</option>
+        <option value="Tlajomulco de Zúñiga">Tlajomulco de Zúñiga</option>
+        <option value="El Salto">El Salto</option>
+
+    </select>
+
+    <button id="consultar">CONSULTAR</button>
+
+
+    <div class="informacion">
+
+        <h1>Información ambiental</h1>
+
+        <div id="grafica-zapotlanejo">
+            <h2>Zapotlanejo</h2>
+            <img src="img/zapotlanejo.png">
+        </div>
+
+        <div id="grafica-guadalajara">
+            <h2>Guadalajara</h2>
+            <img src="img/guadalajara.png">
+        </div>
+
+        <div id="grafica-zapopan">
+            <h2>Zapopan</h2>
+            <img src="img/zapopan.png">
+        </div>
+
+        <div id="grafica-tlaquepaque">
+            <h2>San Pedro Tlaquepaque</h2>
+            <img src="img/tlaquepaque.png">
+        </div>
+
+        <div id="grafica-tlajomulco">
+            <h2>Tlajomulco de Zúñiga</h2>
+            <img src="img/tlajomulco.png">
+        </div>
+
+        <div id="grafica-elsalto">
+            <h2>El Salto</h2>
+            <img src="img/elsalto.png">
+        </div>
+
+    </div>
+
+
+    <h2>ECOSCAN</h2>
+
+
+    <div class="opciones">
+
+        <button class="guia">
+            📖<br>
+            GUÍA
+        </button>
+
+        <button class="juego">
+            🎮<br>
+            JUEGO
+        </button>
+
+    </div>
+
+    <div class="guia-pantalla">
+
+        <h2>♻️ Guía de reciclaje</h2>
+
+        <div class="elementos-guia">
+
+            <button class="elemento-guia">🧴<br>Botella</button>
+
+            <button class="elemento-guia">🥫<br>Lata</button>
+
+            <button class="elemento-guia">🍾<br>Vidrio</button>
+
+            <button class="elemento-guia">📦<br>Cartón</button>
+
+            <button class="elemento-guia">📰<br>Periódico</button>
+
+            <button class="elemento-guia">🍌<br>Orgánico</button>
+
+            <button class="elemento-guia">📱<br>Celular</button>
+            <button class="elemento-guia">🔋<br>Pila</button>
+            <button class="elemento-guia">💡<br>Foco</button>
+            <button class="elemento-guia">🥛<br>Leche</button>
+            <button class="elemento-guia">🥤<br>Vaso</button>
+            <button class="elemento-guia">👕<br>Ropa</button>
+            <button class="elemento-guia">🥫<br>Comida</button>
+            <button class="elemento-guia">🍎<br>Restos</button>
+            <button class="elemento-guia">🧻<br>Papel</button>
+        </div>
+
+
+        <div class="informacion-guia">
+
+            <p id="texto-guia">
+                Toca un elemento para conocer cómo reciclarlo.
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="juego-pantalla">
+
+        <h2>♻️ Minijuego</h2>
+
+        <p id="pregunta">
+            ¿Cuál de estos materiales es reciclable?
+        </p>
+
+        <button class="respuesta">
+            Botella de plástico
+        </button>
+
+        <button class="respuesta">
+            Pañal usado
+        </button>
+
+        <button class="respuesta">
+            Comida podrida
+        </button>
+
+        <button class="respuesta">
+            Papel sanitario usado
+        </button>
+
+        <p id="puntos">
+            Puntos: 0
+        </p>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
